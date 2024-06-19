@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Kigo Lock Demo</string>
+    <string name="lock_about">Lock operate</string>
+    <string name="gateway_about">Gateway</string>
+    <string name="passcode_about">Passcode</string>
+    <string name="fingerprint_about">Fingerprint</string>
+    <string name="ic_card_about">IC Card</string>
+    <string name="upgrade_about">Lock upgrade</string>
+    <string name="passageModeEnter">Set Passage Mode</string>
+    <string name="lockTimeAbout">Lock Time</string>
+    <string name="get_time">Get Lock Time</string>
+    <string name="lock_time_is">Lock time is </string>
+    <string name="set_lock_time">Set lock time</string>
+    <string name="config_feature">Enable/Disable some lock function</string>
+    <string name="get_log">Get Operation Log</string>
+    <string name="get_battery">Get Battery Level</string>
+    <string name="lock_system_info">Get lock system info</string>
+    <string name="set_custom_passcode">Create custom passcode</string>
+    <string name="input_custom_passcode">input custom passcode</string>
+    <string name="start_date">Active date:</string>
+    <string name="end_date">Expiring date:</string>
+    <string name="get_lock_status">Get lock status</string>
+    <string name="set_auto_locking_time">Set auto locking period</string>
+    <string name="modify_passcode">Modify passcode</string>
+    <string name="delete_passcode">Delete passcode</string>
+    <string name="reset_passcode">Reset  passcode</string>
+    <string name="get_valid_passcodes">Get all valid passcodes</string>
+    <string name="get_pwdinfo">Get passcode verification info</string>
+    <string name="modify_date">Modify expire date only</string>
+    <string name="modify_passcode_only">Modify passcode only</string>
+    <string name="modify_passcode_and_date">Modify both</string>
+    <string name="input_new_passcode">Input new passcode</string>
+    <string name="admin_passcode">Admin passcode</string>
+    <string name="get_admin_passcode">Get admin passcode</string>
+    <string name="modify_admin_passcode">Modify admin passcode</string>
+
+
+    <string name="add_permanent_ic_card">Add permanent IC card</string>
+    <string name="add_period_id_card">Add time limited IC card</string>
+    <string name="modify_period">Modify validity period</string>
+    <string name="delete_ic_card">Delete IC card</string>
+    <string name="get_all_ic_card">DGt all valid IC cards</string>
+    <string name="clear_all_ic_card">Clear all IC card</string>
+
+    <string name="add_permanent_fingerprint">Add permanent fingerprint</string>
+    <string name="add_period_fingerprint">Add time limited fingerprint</string>
+    <string name="delete_fingerprint">Delete fingerprint</string>
+    <string name="get_all_fingerprint">Get all valid fingerprints</string>
+    <string name="clear_all_fingerprint">Clear all fingerprints</string>
+    <string name="unlock">Unlock</string>
+    <string name="lock">Lock</string>
+    <string name="rolling_gate_up">Rolling gate up</string>
+    <string name="rolling_gate_down">Rolling gate down</string>
+    <string name="rolling_gate_pause">Rolling gate pause</string>
+    <string name="rolling_gate_lock">Rolling gate lock</string>
+    <string name="initLock">Init lock</string>
+    <string name="reset_lock">Reset lock</string>
+    <string name="reset_key">Reset eKey</string>
+    <string name="lock_mute_mode">Lock volume mute mode is</string>
+    <string name="remote_unlock">Remote unlock is</string>
+    <string name="passage_mode">Passage mode</string>
+    <string name="passcode_visible">Passcode visible Mode is</string>
+    <string name="query">Query</string>
+    <string name="my_fingerprint_list">My fingerprint list</string>
+    <string name="my_card_list">My IC Card List</string>
+
+    <!-- firmware update -->
+    <string name="check_version">Check for UPDATE</string>
+    <string name="recheck_version">Check for UPDATE Again</string>
+    <string name="words_status">Status</string>
+    <string name="words_version_info">Version information</string>
+    <string name="retry">Retry</string>
+
+    <!-- auth -->
+    <string name="account">account:</string>
+    <string name="password">password:</string>
+    <string name="enter_account">enter account</string>
+    <string name="enter_password">enter password</string>
+    <string name="authorize">authorize</string>
+
+    <string name="get_passage_mode">Get passage mode data</string>
+    <string name="set_passage_mode">Set passage mode</string>
+    <string name="delete_passage_mode">delete one passage mode</string>
+    <string name="clear_passage_mode">clear all passage mode settings</string>
+
+    <!-- gateway -->
+    <string name="initGateway">init gateway</string>
+    <string name="gateway_operate_info">Re Connect the Power, Click scan when the light flash alternately</string>
+    <string name="scan">scan</string>
+    <string name="words_wifi_name">WiFi Name</string>
+    <string name="words_wifi_pwd">WiFi Password</string>
+    <string name="words_gateway_name">Gateway Name</string>
+    <string name="add">add</string>
+    <string name="gateway_out_of_time">Timeout. The gateway is out of setting mode</string>
+    <string name="no_updates">No updates</string>
+    <string name="new_version_found">New version found</string>
+    <string name="unknown_lock_version">Unknown lock version</string>
+    <string name="upgrade">upgrade</string>
+    <string name="retry_by_net">retry by net</string>
+    <string name="retry_by_ble">retry by ble</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="select_net">Choose WiFi</string>
+    <!--wireless keyboard-->
+    <string name="wirelesskeyboard">Wireless Keyboard</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+</resources>

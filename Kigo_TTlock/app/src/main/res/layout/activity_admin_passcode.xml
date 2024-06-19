@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ttlock.demo.passcode.AdminPasscodeActivity">
+
+        <Button
+            android:id="@+id/btn_get"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/get_admin_passcode"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_admin_passcode" />
+
+        <TextView
+            android:id="@+id/tv_admin_passcode"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toRightOf="@id/btn_get"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/modify_admin_passcode"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_get" />
+
+        <EditText
+            android:id="@+id/edt_new_passcode"
+            android:layout_width="207dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/input_new_passcode"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/btn_modify"
+            app:layout_constraintTop_toTopOf="@id/btn_modify" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
