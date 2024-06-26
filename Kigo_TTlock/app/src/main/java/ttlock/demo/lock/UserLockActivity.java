@@ -20,7 +20,7 @@ import retrofit2.Callback;
 import ttlock.demo.BaseActivity;
 import ttlock.demo.MyApplication;
 
-import ttlock.demo.R;;
+import ttlock.demo.R;
 
 import ttlock.demo.databinding.ActivityUserLockBinding;
 import ttlock.demo.lock.adapter.UserLockListAdapter;
@@ -54,5 +54,6 @@ public class UserLockActivity extends BaseActivity {
         ArrayList<LockObj> lockObjs2 = new ArrayList<>();
         lockObjs2.add(new LockObj());
         mListApapter.updateData(lockObjs2);
+        Log.d("LockList", GsonUtil.toJson(lockObjs2));
     }
 }

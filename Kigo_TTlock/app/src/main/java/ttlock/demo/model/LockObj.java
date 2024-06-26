@@ -169,6 +169,7 @@ public class LockObj implements Serializable{
         this.firmwareRevision = firmwareRevision;
     }
 
+
     public String getFeatureValue() {
         return featureValue;
     }

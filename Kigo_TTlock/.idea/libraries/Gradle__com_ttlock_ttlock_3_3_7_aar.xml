@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ttlock:ttlock:3.3.7@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8d56b455198e74b57c9df9abe8702b6/transformed/jetified-ttlock-3.3.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a8d56b455198e74b57c9df9abe8702b6/transformed/jetified-ttlock-3.3.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a8d56b455198e74b57c9df9abe8702b6/transformed/jetified-ttlock-3.3.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ttlock/ttlock/3.3.7/b35dec2be2af49f88e0237899ead582a79b37733/ttlock-3.3.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.1"}
-# pg_map_id: eff6173
-# pg_map_hash: SHA-256 eff6173f69efe5b681aeedc81d77360498e717c86cb6e0fc83311f6f45648ef2
+# pg_map_id: 697700a
+# pg_map_hash: SHA-256 697700a7d89bcc64e921bd92fb5cb240924d50fc8d9d09d6901cc3dcf84496f0
 a.a -> a.a:
 # {"id":"sourceFile","fileName":"SourceFile"}
     1:6:android.net.Uri a(android.content.Context,java.io.File) -> a
@@ -37848,12 +37848,12 @@ ttlock.demo.AuthActivity -> ttlock.demo.AuthActivity:
 # {"id":"sourceFile","fileName":"AuthActivity.java"}
     19:19:void <init>() -> <init>
     19:19:java.lang.String access$000(ttlock.demo.AuthActivity) -> access$000
-    27:59:void onCreate(android.os.Bundle) -> onCreate
+    26:59:void onCreate(android.os.Bundle) -> onCreate
 ttlock.demo.AuthActivity$1 -> ttlock.demo.AuthActivity$1:
 # {"id":"sourceFile","fileName":"AuthActivity.java"}
-    34:34:void <init>(ttlock.demo.AuthActivity) -> <init>
+    33:33:void <init>(ttlock.demo.AuthActivity) -> <init>
     56:57:void onFailure(retrofit2.Call,java.lang.Throwable) -> onFailure
-    37:52:void onResponse(retrofit2.Call,retrofit2.Response) -> onResponse
+    36:52:void onResponse(retrofit2.Call,retrofit2.Response) -> onResponse
 ttlock.demo.BaseActivity -> ttlock.demo.BaseActivity:
 # {"id":"sourceFile","fileName":"BaseActivity.java"}
     21:21:void <init>() -> <init>
@@ -37899,19 +37899,22 @@ ttlock.demo.MainActivity -> ttlock.demo.MainActivity:
 # {"id":"sourceFile","fileName":"MainActivity.java"}
     0:0:void $r8$lambda$GH9-mybncqnahAtotlBo6xLHjvA(ttlock.demo.MainActivity,android.view.View) -> $r8$lambda$GH9-mybncqnahAtotlBo6xLHjvA
       # {"id":"com.android.tools.r8.synthesized"}
+    0:0:void $r8$lambda$V81kSCZ0m-1PdEzgJ8Vj6ternDw(ttlock.demo.MainActivity,android.view.View) -> $r8$lambda$V81kSCZ0m-1PdEzgJ8Vj6ternDw
+      # {"id":"com.android.tools.r8.synthesized"}
     0:0:void $r8$lambda$lZ64qqSIydc6YZiI057vT4Jvhgw(ttlock.demo.MainActivity,android.view.View) -> $r8$lambda$lZ64qqSIydc6YZiI057vT4Jvhgw
       # {"id":"com.android.tools.r8.synthesized"}
     0:0:void $r8$lambda$z2HPTLl_bB0VK3nvLMVjVUMnH1U(ttlock.demo.MainActivity,android.view.View) -> $r8$lambda$z2HPTLl_bB0VK3nvLMVjVUMnH1U
       # {"id":"com.android.tools.r8.synthesized"}
     0:0:void $r8$lambda$zhIq_pGQAgn2yM3AjunMLT9dix0(ttlock.demo.MainActivity,android.view.View) -> $r8$lambda$zhIq_pGQAgn2yM3AjunMLT9dix0
       # {"id":"com.android.tools.r8.synthesized"}
-    16:16:void <init>() -> <init>
-    30:34:void initListener() -> initListener
-    30:30:void lambda$initListener$0(android.view.View) -> lambda$initListener$0
-    31:31:void lambda$initListener$1(android.view.View) -> lambda$initListener$1
-    32:32:void lambda$initListener$2(android.view.View) -> lambda$initListener$2
-    33:33:void lambda$initListener$3(android.view.View) -> lambda$initListener$3
-    21:27:void onCreate(android.os.Bundle) -> onCreate
+    17:17:void <init>() -> <init>
+    32:38:void initListener() -> initListener
+    32:32:void lambda$initListener$0(android.view.View) -> lambda$initListener$0
+    33:33:void lambda$initListener$1(android.view.View) -> lambda$initListener$1
+    34:34:void lambda$initListener$2(android.view.View) -> lambda$initListener$2
+    35:35:void lambda$initListener$3(android.view.View) -> lambda$initListener$3
+    36:36:void lambda$initListener$4(android.view.View) -> lambda$initListener$4
+    23:29:void onCreate(android.os.Bundle) -> onCreate
 ttlock.demo.MainActivity$$ExternalSyntheticLambda0 -> ttlock.demo.MainActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -37943,6 +37946,14 @@ ttlock.demo.MainActivity$$ExternalSyntheticLambda3 -> ttlock.demo.MainActivity$$
     0:0:void ttlock.demo.MainActivity$$InternalSyntheticLambda$1$902851d5fb49f0c2a40c588a248bb880a62cf109447bab7b4d305c99eedaa267$3.<init>(ttlock.demo.MainActivity) -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
     0:0:void ttlock.demo.MainActivity$$InternalSyntheticLambda$1$902851d5fb49f0c2a40c588a248bb880a62cf109447bab7b4d305c99eedaa267$3.onClick(android.view.View) -> onClick
+      # {"id":"com.android.tools.r8.synthesized"}
+ttlock.demo.MainActivity$$ExternalSyntheticLambda4 -> ttlock.demo.MainActivity$$ExternalSyntheticLambda4:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    ttlock.demo.MainActivity ttlock.demo.MainActivity$$InternalSyntheticLambda$1$902851d5fb49f0c2a40c588a248bb880a62cf109447bab7b4d305c99eedaa267$4.f$0 -> f$0
+    0:0:void ttlock.demo.MainActivity$$InternalSyntheticLambda$1$902851d5fb49f0c2a40c588a248bb880a62cf109447bab7b4d305c99eedaa267$4.<init>(ttlock.demo.MainActivity) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    0:0:void ttlock.demo.MainActivity$$InternalSyntheticLambda$1$902851d5fb49f0c2a40c588a248bb880a62cf109447bab7b4d305c99eedaa267$4.onClick(android.view.View) -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
 ttlock.demo.MyApplication -> ttlock.demo.MyApplication:
 # {"id":"sourceFile","fileName":"MyApplication.java"}
@@ -38120,15 +38131,15 @@ ttlock.demo.databinding.ActivityLockTimeBindingImpl -> ttlock.demo.databinding.A
     47:51:void invalidateAll() -> invalidateAll
 ttlock.demo.databinding.ActivityMainBinding -> ttlock.demo.databinding.ActivityMainBinding:
 # {"id":"sourceFile","fileName":"ActivityMainBinding.java"}
-    31:36:void <init>(java.lang.Object,android.view.View,int,android.widget.Button,android.widget.Button,android.widget.Button,android.widget.Button) -> <init>
+    34:40:void <init>(java.lang.Object,android.view.View,int,android.widget.Button,android.widget.Button,android.widget.Button,android.widget.Button,android.widget.Button) -> <init>
 ttlock.demo.databinding.ActivityMainBindingImpl -> ttlock.demo.databinding.ActivityMainBindingImpl:
 # {"id":"sourceFile","fileName":"ActivityMainBindingImpl.java"}
-    15:21:void <clinit>() -> <clinit>
-    31:32:void <init>(androidx.databinding.DataBindingComponent,android.view.View) -> <init>
-    34:90:void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[]) -> <init>
-    80:86:void executeBindings() -> executeBindings
-    57:62:boolean hasPendingBindings() -> hasPendingBindings
-    49:53:void invalidateAll() -> invalidateAll
+    15:22:void <clinit>() -> <clinit>
+    32:33:void <init>(androidx.databinding.DataBindingComponent,android.view.View) -> <init>
+    35:92:void <init>(androidx.databinding.DataBindingComponent,android.view.View,java.lang.Object[]) -> <init>
+    82:88:void executeBindings() -> executeBindings
+    59:64:boolean hasPendingBindings() -> hasPendingBindings
+    51:55:void invalidateAll() -> invalidateAll
 ttlock.demo.databinding.ActivityModifyPasscodeBinding -> ttlock.demo.databinding.ActivityModifyPasscodeBinding:
 # {"id":"sourceFile","fileName":"ActivityModifyPasscodeBinding.java"}
     47:56:void <init>(java.lang.Object,android.view.View,int,android.widget.Button,android.widget.Button,android.widget.Button,android.widget.EditText,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView) -> <init>
@@ -39361,14 +39372,14 @@ ttlock.demo.lock.UnlockActivity -> ttlock.demo.lock.UnlockActivity:
       # {"id":"com.android.tools.r8.synthesized"}
     0:0:void $r8$lambda$hrNovXu1xuvRqSPOi4aYhOfxFQk(ttlock.demo.lock.UnlockActivity,android.view.View) -> $r8$lambda$hrNovXu1xuvRqSPOi4aYhOfxFQk
       # {"id":"com.android.tools.r8.synthesized"}
-    33:33:void <init>() -> <init>
-    121:134:void doLockLock() -> doLockLock
-    97:111:void doUnlock() -> doUnlock
-    47:49:void initListener() -> initListener
-    47:47:void lambda$initListener$0(android.view.View) -> lambda$initListener$0
-    48:48:void lambda$initListener$1(android.view.View) -> lambda$initListener$1
-    39:44:void onCreate(android.os.Bundle) -> onCreate
-    142:144:void onDestroy() -> onDestroy
+    35:35:void <init>() -> <init>
+    123:136:void doLockLock() -> doLockLock
+    99:113:void doUnlock() -> doUnlock
+    49:51:void initListener() -> initListener
+    49:49:void lambda$initListener$0(android.view.View) -> lambda$initListener$0
+    50:50:void lambda$initListener$1(android.view.View) -> lambda$initListener$1
+    41:46:void onCreate(android.os.Bundle) -> onCreate
+    144:146:void onDestroy() -> onDestroy
 ttlock.demo.lock.UnlockActivity$$ExternalSyntheticLambda0 -> ttlock.demo.lock.UnlockActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -39387,14 +39398,14 @@ ttlock.demo.lock.UnlockActivity$$ExternalSyntheticLambda1 -> ttlock.demo.lock.Un
       # {"id":"com.android.tools.r8.synthesized"}
 ttlock.demo.lock.UnlockActivity$1 -> ttlock.demo.lock.UnlockActivity$1:
 # {"id":"sourceFile","fileName":"UnlockActivity.java"}
-    99:99:void <init>(ttlock.demo.lock.UnlockActivity) -> <init>
-    102:104:void onControlLockSuccess(com.ttlock.bl.sdk.entity.ControlLockResult) -> onControlLockSuccess
-    108:109:void onFail(com.ttlock.bl.sdk.entity.LockError) -> onFail
+    101:101:void <init>(ttlock.demo.lock.UnlockActivity) -> <init>
+    104:106:void onControlLockSuccess(com.ttlock.bl.sdk.entity.ControlLockResult) -> onControlLockSuccess
+    110:111:void onFail(com.ttlock.bl.sdk.entity.LockError) -> onFail
 ttlock.demo.lock.UnlockActivity$2 -> ttlock.demo.lock.UnlockActivity$2:
 # {"id":"sourceFile","fileName":"UnlockActivity.java"}
-    123:123:void <init>(ttlock.demo.lock.UnlockActivity) -> <init>
-    126:127:void onControlLockSuccess(com.ttlock.bl.sdk.entity.ControlLockResult) -> onControlLockSuccess
-    131:132:void onFail(com.ttlock.bl.sdk.entity.LockError) -> onFail
+    125:125:void <init>(ttlock.demo.lock.UnlockActivity) -> <init>
+    128:129:void onControlLockSuccess(com.ttlock.bl.sdk.entity.ControlLockResult) -> onControlLockSuccess
+    133:134:void onFail(com.ttlock.bl.sdk.entity.LockError) -> onFail
 ttlock.demo.lock.UserLockActivity -> ttlock.demo.lock.UserLockActivity:
 # {"id":"sourceFile","fileName":"UserLockActivity.java"}
     0:0:void $r8$lambda$NDsjB4Pn-3eEiUwEU8LpYSOFV8Y(ttlock.demo.lock.UserLockActivity,android.view.View) -> $r8$lambda$NDsjB4Pn-3eEiUwEU8LpYSOFV8Y
@@ -39402,7 +39413,7 @@ ttlock.demo.lock.UserLockActivity -> ttlock.demo.lock.UserLockActivity:
     31:34:void <init>() -> <init>
     48:51:void initList() -> initList
     44:44:void lambda$onCreate$0(android.view.View) -> lambda$onCreate$0
-    54:57:void lockList() -> lockList
+    54:58:void lockList() -> lockList
     40:45:void onCreate(android.os.Bundle) -> onCreate
 ttlock.demo.lock.UserLockActivity$$ExternalSyntheticLambda0 -> ttlock.demo.lock.UserLockActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
@@ -39480,7 +39491,7 @@ ttlock.demo.model.LockObj -> ttlock.demo.model.LockObj:
     8:58:void <init>() -> <init>
     61:61:long getDate() -> getDate
     109:109:int getElectricQuantity() -> getElectricQuantity
-    173:173:java.lang.String getFeatureValue() -> getFeatureValue
+    174:174:java.lang.String getFeatureValue() -> getFeatureValue
     165:165:java.lang.String getFirmwareRevision() -> getFirmwareRevision
     133:133:java.lang.String getHardwareRevision() -> getHardwareRevision
     125:125:int getKeyboardPwdVersion() -> getKeyboardPwdVersion
@@ -39495,7 +39506,7 @@ ttlock.demo.model.LockObj -> ttlock.demo.model.LockObj:
     149:149:java.lang.String getUserType() -> getUserType
     65:66:void setDate(long) -> setDate
     113:114:void setElectricQuantity(int) -> setElectricQuantity
-    177:178:void setFeatureValue(java.lang.String) -> setFeatureValue
+    178:179:void setFeatureValue(java.lang.String) -> setFeatureValue
     169:170:void setFirmwareRevision(java.lang.String) -> setFirmwareRevision
     137:138:void setHardwareRevision(java.lang.String) -> setHardwareRevision
     129:130:void setKeyboardPwdVersion(int) -> setKeyboardPwdVersion

@@ -11,6 +11,7 @@ import com.ttlock.bl.sdk.callback.ControlLockCallback;
 import com.ttlock.bl.sdk.constant.ControlAction;
 import com.ttlock.bl.sdk.entity.ControlLockResult;
 import com.ttlock.bl.sdk.entity.LockError;
+import com.ttlock.bl.sdk.util.GsonUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,6 +24,7 @@ import ttlock.demo.R;
 import ttlock.demo.databinding.ActivityUnlockBinding; //Este no es necesario, es una UI
 import ttlock.demo.lock.model.KeyListObj; //No es necesario, genera una lista de todos los candados disponibles
 import ttlock.demo.lock.model.KeyObj; //Esta clase encapsula propiedades relacionadas con la clave y el candado al que pertenece, junto con métodos para acceder a estas propiedades
+import ttlock.demo.model.LockObj;
 import ttlock.demo.retrofit.ApiService; //Requests al API de ttlock
 import ttlock.demo.retrofit.RetrofitAPIManager; //Clase que funciona como helper para generar los requests de TTlock
 

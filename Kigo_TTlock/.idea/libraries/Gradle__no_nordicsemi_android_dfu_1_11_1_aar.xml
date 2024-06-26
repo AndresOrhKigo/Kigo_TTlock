@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: no.nordicsemi.android:dfu:1.11.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/717ba4b464598ac9ff921395afc34660/transformed/jetified-dfu-1.11.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/717ba4b464598ac9ff921395afc34660/transformed/jetified-dfu-1.11.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/717ba4b464598ac9ff921395afc34660/transformed/jetified-dfu-1.11.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/717ba4b464598ac9ff921395afc34660/transformed/jetified-dfu-1.11.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

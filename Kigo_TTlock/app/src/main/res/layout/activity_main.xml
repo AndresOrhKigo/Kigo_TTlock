@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -31,5 +30,11 @@
             android:id="@+id/btn_ic"
             android:textAllCaps="false"
             android:text="@string/ic_card_about"/>
+
+        <Button
+            android:id="@+id/btnPassage"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="@string/passage_mode" />
     </LinearLayout>
 </layout>

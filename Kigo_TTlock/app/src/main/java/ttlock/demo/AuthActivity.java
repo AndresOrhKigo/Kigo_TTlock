@@ -18,7 +18,6 @@ import ttlock.demo.retrofit.RetrofitAPIManager;
 
 public class AuthActivity extends BaseActivity {
 
-    ActivityAuthBinding binding;
     public AccountInfo accountInfo;
     private String password;
 
@@ -36,6 +35,7 @@ public class AuthActivity extends BaseActivity {
             public void onResponse(Call<String> call, retrofit2.Response<String> response) {
                 String json = response.body();
                 accountInfo = GsonUtil.toObject(json, AccountInfo.class);
+                Log.d("AccountInfo", accountInfo.toString());
                 if (accountInfo != null) {
                     if (accountInfo.errcode == 0) {
                         accountInfo.setMd5Pwd(password);

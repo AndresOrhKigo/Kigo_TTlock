@@ -8,6 +8,7 @@ import android.os.Bundle;
 import ttlock.demo.databinding.ActivityMainBinding;
 import ttlock.demo.fingerprint.FingerprintActivity;
 import ttlock.demo.iccard.ICCardActivity;
+import ttlock.demo.lock.PassageModeActivity;
 import ttlock.demo.lock.UnlockActivity;
 import ttlock.demo.passcode.PasscodeActivity;
 import ttlock.demo.utils.AppUtil;
@@ -31,6 +32,8 @@ public class MainActivity extends BaseActivity {
         binding.btnLock.setOnClickListener(v -> startTargetActivity(UnlockActivity.class));
         binding.btnPasscode.setOnClickListener(v -> startTargetActivity(PasscodeActivity.class));
         binding.btnFingerprint.setOnClickListener(v -> startTargetActivity(FingerprintActivity.class));
+        binding.btnPassage.setOnClickListener(v -> startTargetActivity(PassageModeActivity.class));
         binding.btnIc.setOnClickListener(v -> startTargetActivity(ICCardActivity.class));
+
     }
 }
